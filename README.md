@@ -1,4 +1,4 @@
-# ExpressJS Yields
+# ExpressJS Async Functions
 
 A dead simple ~~ES6 generators and~~ ES7 async/await support hack for [ExpressJS](http://expressjs.com)
 
@@ -15,7 +15,7 @@ Then require this script somewhere __before__ you start using it:
 
 ```js
 const express = require('express');
-const yields = require('express-yields');
+require('express-async-functions');
 const User = require('./models/user');
 const app = express();
 
