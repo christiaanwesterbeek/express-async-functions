@@ -1,27 +1,25 @@
 {
-  "name": "express-yields",
-  "version": "1.1.2",
-  "description": "ES6 Generators support for expressjs",
+  "name": "express-async-functions",
+  "version": "1.2.0",
+  "description": "ES7 async/await support for expressjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MadRabbit/express-yields.git"
+    "url": "git+https://github.com/christiaanwesterbeek/express-async-functions.git"
   },
   "keywords": [
     "expressjs",
-    "generators",
+    "async",
+    "await",
     "es6"
   ],
-  "author": "Nikolay Nemshilov",
-  "license": "ISC",
+  "author": "Christiaan Westerbeek <chris@devotis.nl>",
+  "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/MadRabbit/express-yields/issues"
+    "url": "https://github.com/christiaanwesterbeek/express-async-functions/issues"
   },
-  "homepage": "https://github.com/MadRabbit/express-yields#readme",
-  "dependencies": {
-    "co": "^4.6.0"
-  }
+  "homepage": "https://github.com/christiaanwesterbeek/express-async-functions#readme"
 }
