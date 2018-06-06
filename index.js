@@ -22,7 +22,7 @@ function isAsync(fn) {
 function wrapAsync(fn) {
   return (req, res, next = noop) => {
     fn(req, res, next)
-      .then(() => !res.finished && next())
+      .then(() => res.headersSent || res.finished || next())
       .catch(next);
   }
 };
